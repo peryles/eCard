@@ -1,0 +1,153 @@
+########################################
+# 操作系统生成的临时文件
+########################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+
+########################################
+# IDE 和编辑器配置
+########################################
+# VSCode
+.vscode/
+.code-workspace
+
+# IntelliJ IDEA / WebStorm / PhpStorm
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.csettings
+.settings/
+*.launch
+*.log
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+########################################
+# Java 项目相关
+########################################
+target/
+bin/
+build/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+dependency-reduced-pom.xml
+buildNumber.properties
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# Gradle
+.gradle/
+build/
+
+########################################
+# Node.js / 前端项目
+########################################
+node_modules/
+dist/
+build/
+.cache/
+.npm/
+.yarn/
+.pnpm-debug.log
+*.log
+.env
+.env.*.local
+
+# Vite / Vue / Nuxt / React
+.vite/
+.nuxt/
+.next/
+.output/
+*.local
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+########################################
+# Python
+########################################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdm.toml
+*.egg-info/
+
+########################################
+# 日志与临时文件
+########################################
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.pid
+
+########################################
+# 数据库与上传文件（根据项目情况可开启）
+########################################
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sql
+*.bak
+uploads/
+upload/
+tmp/
+temp/
+
+########################################
+# 操作系统或工具缓存
+########################################
+*.~lock.*
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+*.zip
+*.tar.gz
+*.7z
+*.rar
+*.gz
+
+########################################
+# IDEA 系列 user-specific 文件
+########################################
+*.ipr
+*.iws
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/**/usage.statistics.xml
+.idea/**/shelf/
+
+########################################
+# 其他可选：忽略你的生成文档或其他二进制
+########################################
+docs/generated/
+*.pdf
+*.docx
+*.xlsx
+*.pptx
